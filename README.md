@@ -2,14 +2,14 @@
 The DSA Cleveland evictions tracker is a java command line tool designed to parse evictions data.
 
 ## Windows Instructions
-**First-time users only**:
-- Download and install the latest version of Java from https://java.com/en/download. If Java 8 is already installed on your computer you can skip this step, but there is no harm in re-installing over an existing version if you are unsure.
+### Getting Started
+**First-time users only**, be sure to download and install the latest version of Java from https://java.com/en/download. If Java 8 is already installed on your computer you can skip this step, but there is no harm in re-installing over an existing version if you are unsure.
 
-**Returning users**, check for any new [releases](https://github.com/DSACle/evictiontracker/releases) since your last use:
+**Returning users**, check for any new [releases](https://github.com/DSACle/evictiontracker/releases) since your last visit:
 - If needed, download the latest version by clicking "Assets" and then `evictionsparser.zip`. If prompted, save the file to your computer before trying to open it.
 - Extract the ZIP file. This can be done with the default Windows tool (right-click, "Extract All...", click through the prompts) or dedicated software like 7-zip.
 
-**All set with the above?**
+### Running The Application
 - Open the `evictionstracker` folder so that you can see `parser.jar`, `parse.bat`, and `parse`. Leave this window aside for a moment.
 - On your keyboard press *Windows key + R* and type `powershell` in the window that appears. This should open a blue window called "Microsoft PowerShell".
 - Now we have to point PowerShell into the right folder. Type `cd` ("change directory") followed by a space. Return to the `evictionstracker` window you left aside earlier and click into the address bar (where it shows something like "This PC > Downloads > evictionstracker" -- clicking into this box should cause that text to change into something more like `C:\Users\yourname\Downloads\evictionstracker`). Copy this and paste it into PowerShell with *Ctrl+V*, then hit Enter.
